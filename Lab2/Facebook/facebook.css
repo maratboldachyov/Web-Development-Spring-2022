@@ -1,0 +1,184 @@
+body{
+    background-color: #f0f2f5;
+}
+.picture{
+
+    margin-top: 140px;
+    margin-left: 220px;
+}
+.facebook{
+    margin-top: -10px;
+    margin-left: 250px;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight : normal;
+}
+
+.form{
+    background-color: white;
+    height: 400px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    margin-left: 800px;
+    margin-top: -280px;
+    width: 430px;
+    text-align: center;
+
+}
+.login{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 20px 0 20px;
+    padding: 6px 20px;
+    width: 333px;
+    height: 44px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    border-radius: 6px;
+    font-size: 17px;
+}
+.button1{
+    background-color: #1877F2;
+    width: 380px;
+    height: 60px;
+    padding: 6px 20px;
+    text-align: center;
+    margin: 20px 20px;
+    color: white;
+    border-radius: 6px;;
+    border-color: #1872F2;
+    font: 20px Helvetica,Arial,sans-serif;
+    font-weight: bold;
+
+}
+.button1 a{
+    text-decoration: none;
+    color:white;
+}
+.button1:hover{
+    background-color:#166FE5;
+    cursor: pointer;
+}
+.button2{
+    background-color: #42B72A;
+    width: 270px;
+    border-color: #42B72A;
+    height: 60px;
+    padding: 10px 12px;
+    text-align: center;
+    margin-top: -0px;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica,Arial,sans-serif;
+    border-radius: 6px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.button2:hover{
+    background-color:#36A421;
+    cursor: pointer;
+}
+.button2 a{
+    text-decoration: none;
+    color:white;
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    margin: 10px 10px 27px 27px;
+    width:375px;
+
+}
+.forgot-password{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    margin-top: -10px;
+
+}
+.forgot-password a{
+    color:#1877F2;
+}
+.forgot-password a:hover{
+    text-decoration: underline;
+}
+.forgot-password a{
+    text-decoration:none;
+}
+.account{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 0 660px;
+    width: 700px;
+    text-align: center;
+}
+.account a{
+    color:#1c1e21;
+}
+.account a:hover{
+    text-decoration: underline;
+}
+.footer{
+    width: 1000px;
+    background-color: #ffff;
+    margin-left: 0;
+    margin-top: 250px;
+    text-align: left;
+
+
+    padding: 20px 511px 20px 0;
+}
+.footer-language{
+    width: 1000px;
+    margin-left: 255px;
+    border-bottom: 1px solid #bbb8b898;
+    height: 40px;
+    line-height: 45px;
+    font-size: 12px;
+    color:#848484;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-language a:hover{
+    text-decoration: underline;
+}
+.footer-language a{
+    color:#848484;
+    display: inline;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.footer-list{
+    width: 1000px;
+    margin: 0 120px 0 252px;
+    font-size: 12px;
+    color:#848484;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-list a{
+    color:#848484;
+    display: inline-block;
+    margin-right:10px ;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-list a:hover{
+    text-decoration: underline;
+}
+.footer-list p{
+    margin-top: 20px;
+    margin-left: 0;
+
+}
+.link {
+    text-decoration: none;
+}

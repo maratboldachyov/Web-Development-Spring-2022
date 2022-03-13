@@ -1,0 +1,214 @@
+.microsoft{
+    float: left;
+    margin-left: 75px;
+}
+
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+
+
+.header-left-text{
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.header-left-text a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #262626;
+    font-size: 14px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.header-left-text a:hover{
+    color: #262626;
+    text-decoration: underline;
+}
+
+
+
+.search{
+    position: absolute;
+    left: 1295px;
+    top: 9px;
+}
+.add{
+    position: absolute;
+    left: 1398px;
+    top: 1px;
+}
+
+
+
+.header-right{
+    margin-right: 70px;
+}
+.header-right-text {
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.header-right-text a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #262626;
+    font-size: 14px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.header-right-text a:hover{
+    color: #262626;
+    text-decoration: underline;
+}
+
+
+
+.background{
+    margin-left: 70px;
+    position: relative;
+}
+.main-heading{
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    font-size: 35px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #FFFFFF;
+}
+.main-subheading{
+    position: absolute;
+    top: 280px;
+    left: 80px;
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #FFFFFF;
+}
+.btn{
+    position: absolute;
+    top: 360px;
+    left: 80px;
+    color: #000000;
+    border: 14px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.btn a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn a:hover{
+    color: #000000;
+}
+
+
+
+.m365{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.edge{
+    margin-left: 425px;
+    margin-top: -175px;
+}
+.one{
+    margin-left: 775px;
+    margin-top: -175px;
+}
+.note{
+    margin-left: 1130px;
+    margin-top: -175px;
+}
+
+.microsoft365{
+    float: left;
+    margin-left: 70px;
+}
+.microsoft-edge{
+    float:left;
+    margin-left: 58px;
+    margin-top: 14px;
+}
+.one-drive{
+    float: right;
+    margin-right: 420px;
+    margin-top: 8px;
+}
+.one-note{
+    position: absolute;
+    bottom: -143px;
+    right: 90px;
+}
+
+.heading-365{
+    margin-left: 70px;
+    text-decoration: none;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+.edge-heading{
+    text-decoration: none;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+.one-drive-heading{
+    text-decoration: none;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+.one-note-heading{
+    text-decoration: none;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.paragraph-365{
+    text-decoration: none;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+.edge-paragraph{
+    text-decoration: none;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+.one-drive-paragraph{
+    text-decoration: none;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+.one-note-paragraph{
+    text-decoration: none;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+
+.link-365-1{
+    text-decoration: none;
+    color: #0067B8;
+}
+.link-365-2{
+    text-decoration: none;
+    color: #0067B8;
+}
+.edge-link{
+    text-decoration: none;
+    color: #0067B8;
+}
+.one-drive-link{
+    text-decoration: none;
+    color: #0067B8;
+}
+.one-note-link{
+    text-decoration: none;
+    color: #0067B8;
+}
+
+.description_links a:hover{
+    text-decoration: underline;
+    color: #0067B8;
+}

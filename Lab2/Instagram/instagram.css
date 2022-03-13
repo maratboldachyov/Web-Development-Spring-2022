@@ -1,0 +1,196 @@
+@import url('http://fonts.cdnfonts.com/css/billabong');
+body{
+    background-color: #fafafa;
+
+}
+.picture{
+
+    margin-top: 50px;
+    margin-left: 340px;
+    float:left;
+
+}
+.instagram1{
+    margin:22px auto 20px;
+    font-family:'billabong',sans-serif;
+    font-size:60px;
+    font-weight: lighter;
+
+}
+
+.form{
+    background-color: white;
+    border: 1px;
+    border-color:#dbdbdb;
+    box-sizing: border-box;
+    margin-right:300px;
+    width: 370px;
+    height: 380px;
+    text-align: center;
+    float:right;
+    margin-top: 50px;
+    border: 1px solid;
+    border-color:#dbdbdb;
+}
+.account{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right:300px;
+    margin-top: 10px;
+    width: 370px;
+    text-align: center;
+    height: 60px;
+    background-color:white;
+    float:right;
+    vertical-align: middle;
+    border: 1px solid;
+    border-color:#dbdbdb;
+}
+.account a{
+    color:#0095f6;
+}
+.account a:hover{
+
+}
+.login{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 20px 0px 20px;
+    padding: 6px 20px;
+    width: 240px;
+    height: 32px;
+    border:1px solid #dbdbdb;
+    color: #1d2129;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+.button1{
+    background-color: #c0dff2;
+    width: 280px;
+    height: 35px;
+    padding: 6px 20px;
+    text-align: center;
+    margin: 20px 20px;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-size:15px;
+    border-color: #c0dff2;
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+.button1 a{
+    text-decoration: none;
+    color:white;
+}
+.button1:hover{
+    background-color:#166FE5;
+    cursor: pointer;
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    margin: 10px 10px 27px 45px;
+    width: 100px;
+}
+.line2{
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    margin: 0 0 240px 225px;
+    margin-top: -28px;
+    width: 100px;
+}
+.or{
+    margin-top: -255px;
+    font-size: 18px;
+    color: #8E8E8E;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.zabili1{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    margin-top: -10px;
+}
+.zabili1 a{
+    color:#1877F2;
+}
+.zabili1 a:hover{
+    text-decoration: none;
+}
+.zabili1 a{
+    color: black;
+    text-decoration: none;
+}
+.install{
+    position: absolute;
+    top: 510px;
+    left: 950px;
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.install-picture{
+    margin-left: 175px;
+    margin-top: 40px;
+}
+.facebook{
+    margin-top: -35px;
+}
+.footer{
+    width: 1000px;
+    background-color: #fafafa;
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: center;
+    float:left;
+    padding: 20px 511px 20px 0px;
+}
+.footer-language{
+    width: 1000px;
+    margin-left: 255px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 12px;
+    color:#848484;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-language a{
+    color:#848484;
+    display: inline;
+    margin-left: 6px;
+    text-decoration: none;
+}
+.footer-language a:hover{
+    text-decoration: underline;
+}
+.footer-list{
+    width: 1000px;
+    margin: 50px 120px 0 252px;
+    font-size: 12px;
+    color:#848484;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-list a{
+    color:#848484;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+.footer-list a:hover{
+    text-decoration: underline;
+}
+.footer-list p{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.link {
+    text-decoration: none;
+}

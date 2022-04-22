@@ -1,0 +1,314 @@
+{
+	"info": {
+		"_postman_id": "c64f539f-edfa-4e5b-82d2-b7954c692959",
+		"name": "Lab10",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Company",
+			"item": [
+				{
+					"name": "List Company",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "JWT {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASE_URL}}/views/companies/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"views",
+								"companies",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show Company",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/api/companies/1/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api",
+								"companies",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Company",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Company66\" ,\r\n    \"description\": \"desc3\",\r\n    \"city\": \"A\",\r\n    \"address\": \"B\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/views/companies/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"views",
+								"companies",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Company",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Company22\" ,\r\n    \"description\": \"desc1\",\r\n    \"city\": \"A\",\r\n    \"address\": \"B\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/views/companies/11/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"views",
+								"companies",
+								"11",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Company",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/views/companies/11/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"views",
+								"companies",
+								"11",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let response = JSON.parse(responseBody);\r",
+									"postman.setEnvironmentVariable('token', response.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/login/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"login",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Vacancy",
+			"item": [
+				{
+					"name": "List Vanancy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/views/vacancies/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"views",
+								"vacancies",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show Vacancy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/api/vacancies/10/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api",
+								"vacancies",
+								"10",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Vacancy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"name\",\r\n    \"description\": \"desc1\",\r\n    \"salary\": 90,\r\n    \"company_id\": \"2\",\r\n    \"priority\": 5,\r\n    \"active\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/views/vacancies/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"views",
+								"vacancies",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Vacancy",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"name\",\r\n    \"description\": \"desc1\",\r\n    \"salary\": 1000,\r\n    \"company\": \"2\",\r\n    \"priority\": 5,\r\n    \"active\": false\r\n}"
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/views/vacancies/10/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"views",
+								"vacancies",
+								"10",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Vacancy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/views/vacancies/10/",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"views",
+								"vacancies",
+								"10",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -18,6 +18,9 @@ class Product(models.Model):
     is_Active = models.BooleanField(default=False)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
+    class Meta:
+        ordering = ('-price',)
+
     def JSON_Format(self):
         return {
             'id': self.id,

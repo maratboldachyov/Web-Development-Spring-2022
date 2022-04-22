@@ -34,8 +34,8 @@ def vacancy_details(request, vacancy_id):
 
 def top_vacancies(request):
     vacancy_ordered = Vacancy.objects.order_by('-salary')[:10]
-    vacancy_ordered_tojson = [item.to_json() for item in vacancy_ordered]
-    return JsonResponse(vacancy_ordered_tojson, safe=False)
+    vacancy_ordered_to_json = [item.to_json() for item in vacancy_ordered]
+    return JsonResponse(vacancy_ordered_to_json, safe=False)
 
 
 def sorted_vacancies(request, companies_id):
@@ -45,5 +45,29 @@ def sorted_vacancies(request, companies_id):
     except Company.DoesNotExist as e:
         return JsonResponse({'message'}, str(e), status=400)
     return JsonResponse(vacancies_tojson, safe=False)
+
+
+def priority(request):
+    vacancy_ordered = Vacancy.objects.order_by('-priority')
+    vacancy_ordered_to_json = [item.to_json() for item in vacancy_ordered]
+    return JsonResponse(vacancy_ordered_to_json, safe=False)
+
+
+def active(request):
+    try:
+        vacancies = Vacancy.objects.filter(active=True)
+        vacancies_to_json = [vacancy.to_json() for vacancy in vacancies]
+    except Company.DoesNotExist as e:
+        return JsonResponse({'message'}, str(e), status=400)
+    return JsonResponse(vacancies_to_json, safe=False)
+
+
+def non_active(request):
+    try:
+        vacancies = Vacancy.objects.filter(active=False)
+        vacancies_to_json = [vacancy.to_json() for vacancy in vacancies]
+    except Company.DoesNotExist as e:
+        return JsonResponse({'message'}, str(e), status=400)
+    return JsonResponse(vacancies_to_json, safe=False)
 
 

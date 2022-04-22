@@ -11,10 +11,6 @@ export class CartService {
   addToCart(product: Product) {
     this.items.push(product);
   }
-  removeFromCart(product: Product){
-    // @ts-ignore
-    this.items.pop(product)
-  }
 
   getItems() {
     return this.items;

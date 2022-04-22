@@ -5,6 +5,7 @@ from api.models import Category, Product
 
 def Products_List(request):
     products = Product.objects.all()
+    # products = products.order_by('-price')
     products_json = [product.JSON_Format() for product in products]
     return JsonResponse(products_json, safe=False)
 
@@ -34,7 +35,10 @@ def Category_Details(request, category_id):
 def Sorted_Products(request, category_id):
     try:
         products = Product.objects.filter(category=category_id)
+        # products = products.order_by('-price')
         products_json = [product.JSON_Format() for product in products]
     except Category.DoesNotExist as e:
         return JsonResponse({'message'}, str(e), status=400)
     return JsonResponse(products_json, safe=False)
+
+

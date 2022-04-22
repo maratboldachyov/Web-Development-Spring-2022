@@ -38,7 +38,4 @@ export class CartComponent {
     return this.items;
   }
 
-  removeFromCart() {
-    this.items.
-  }
 }
